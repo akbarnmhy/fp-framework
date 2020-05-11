@@ -49,7 +49,7 @@
         <div class="container">
           <div class="row align-items-end justify-content-center text-center">
             <div class="col-lg-7">
-              <h2 class="mb-0">Register</h2>
+              <h2 class="mb-0">Registrasi</h2>
               <p>Daftarkan Diri Anda Sekarang</p>
             </div>
           </div>
@@ -59,9 +59,9 @@
 
     <div class="custom-breadcrumns border-bottom">
       <div class="container">
-        <a href="<?=base_url()?>">Home</a>
+        <a href="<?=base_url()?>">Beranda</a>
         <span class="mx-3 icon-keyboard_arrow_right"></span>
-        <span class="current">Register</span>
+        <span class="current">Registrasi</span>
       </div>
     </div>
 
@@ -72,25 +72,25 @@
                 <div class="col-md-5">
                     <div class="row">
                         <div class="col-md-12 form-group">
-                           <input type="text" class="form-control form-control-lg" placeholder="Your name" name="nama">
+                           <input type="text" class="form-control form-control-lg" placeholder="Nama" name="nama">
                       </div>
                       <div class="col-md-12 form-group">
-                           <input type="text" class="form-control form-control-lg" placeholder="Your User Name" name="username">
+                           <input type="text" class="form-control form-control-lg" placeholder="Nama Pengguna/Username" name="username">
                       </div>
                       <div class="col-md-12 form-group">
-                           <input type="password" class="form-control form-control-lg" placeholder="Your Password" name="password1">
+                           <input type="Kata sandi" class="form-control form-control-lg" placeholder="Your Password" name="password1">
                       </div>
                       <div class="col-md-12 form-group">
-              <input type="password" class="form-control form-control-lg" placeholder="Confirm Your Password" name="password2">
+              <input type="password" class="form-control form-control-lg" placeholder="Ulangi Kata Sandi" name="password2">
           </div>
           <div class="col-md-12 form-group">
-             <input type="number" class="form-control form-control-lg" placeholder="Your NPM" name="npm">
+             <input type="number" class="form-control form-control-lg" placeholder="NPM" name="npm">
           </div>
           <div class="col-md-12 form-group">
               <input type="email" class="form-control form-control-lg" placeholder="Your email" name="email">
           </div>
           <div class="col-md-12 form-group">
-              <input type="text" class="form-control form-control-lg" placeholder="Your Fakultas" name="fakultas">
+              <input type="text" class="form-control form-control-lg" placeholder="Fakultas" name="fakultas">
           </div>
               <div class="col-md-12 form-group">
               <input type="hidden" name="level" value="3">
